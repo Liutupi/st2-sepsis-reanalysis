@@ -1,0 +1,119 @@
+Multi-signal colocalization: auditable results
+
+Signed LD was reconstructed from 503 European 1000 Genomes participants for 2,914 regional variants shared by both summary datasets; zero reference genotypes were missing.
+All effect alleles, dosage alleles, SNP positions, LD signs, and SNP ordering were checked explicitly.
+SCALLOP per-variant N ranged from 6,907 to 20,507.9; the fine-mapping approximation uses median regional N.
+Both traits were analysed with SuSiE-RSS, L=10, 95% credible sets, min |r|=0.5, fixed residual variance, tol=0.001, max_iter=1,000, estimated prior variance.
+Sepsis uses effective case-control N=65,958.1121002409 (17,133 cases; 439,048 controls).
+
+Convergence / credible sets:
+   analysis_set    trait nsnps      n_rss     L coverage min_abs_corr
+         <char>   <char> <int>      <num> <int>    <num>        <num>
+1:  all_matched   sepsis  2914 65958.1121    10     0.95          0.5
+2:  all_matched exposure  2914 20506.0000    10     0.95          0.5
+3: common_highN   sepsis  2155 65958.1121    10     0.95          0.5
+4: common_highN exposure  2155 20506.0000    10     0.95          0.5
+   estimate_residual_variance converged niter n_credible_sets    final_elbo
+                       <lgcl>    <lgcl> <int>           <int>         <num>
+1:                      FALSE      TRUE     2               0  -93590.00640
+2:                      FALSE     FALSE  1000               5 1378343.76453
+3:                      FALSE      TRUE     2               0  -93590.00652
+4:                      FALSE      TRUE    23              10  -26307.76582
+                                                                                                                                                                                                                                  warnings
+                                                                                                                                                                                                                                    <char>
+1:                                                                                                                                                                                                                                        
+2: IBSS algorithm did not converge in 1000 iterations!\n                  Please check consistency between summary statistics and LD matrix.\n                  See https://stephenslab.github.io/susieR/articles/susierss_diagnostic.html
+3:                                                                                                                                                                                                                                        
+4:                                                                                                                                                                                                                                        
+   estimate_prior_variance tolerance max_iter reaches_L_cap
+                    <lgcl>     <num>    <int>        <lgcl>
+1:                    TRUE     0.001     1000         FALSE
+2:                    TRUE     0.001     1000         FALSE
+3:                    TRUE     0.001     1000         FALSE
+4:                    TRUE     0.001     1000          TRUE
+                                                       inferential_status
+                                                                   <char>
+1:                                  Converged, no qualifying credible set
+2:                   Nonconverged: do not interpret PIPs or credible sets
+3:                                  Converged, no qualifying credible set
+4: Converged but credible sets reach L cap; external-LD diagnostics apply
+
+LD–z diagnostics:
+   analysis_set    trait nsnps      n_rss reference_n lambda_null_mle
+         <char>   <char> <int>      <num>       <int>           <num>
+1:  all_matched   sepsis  2914 65958.1121         503  0.015530022768
+2:  all_matched exposure  2914 20506.0000         503  0.376616691187
+3: common_highN   sepsis  2155 65958.1121         503  0.003389579755
+4: common_highN exposure  2155 20506.0000         503  0.140611962235
+     min_eigenvalue rank_at_1e_8    max_abs_z          min_p
+              <num>        <int>        <num>          <num>
+1: -6.966243826e-13          502  2.934339439 0.003342584409
+2: -6.966243826e-13          502 73.329545455 0.000000000000
+3: -6.421334636e-13          502  2.412824354 0.015829445883
+4: -6.421334636e-13          502 73.329545455 0.000000000000
+   eaf_reference_max_difference max_abs_standardized_conditional_residual
+                          <num>                                     <num>
+1:                0.15646567396                              10.196898203
+2:                0.06437296223                              28.725552962
+3:                0.15646567396                               9.411597304
+4:                0.06437296223                               8.161294902
+   max_flip_logLR n_flip_logLR_above_2
+            <num>                <int>
+1:    7.575726147                   30
+2:    6.955278319                   17
+3:    6.471417038                   11
+4:    6.572764504                    8
+
+Signal-pair estimability:
+   analysis_set nsnps exposure_credible_sets sepsis_credible_sets
+         <char> <int>                  <int>                <int>
+1:  all_matched  2914                      5                    0
+2: common_highN  2155                     10                    0
+                                                                                                                                                                  status
+                                                                                                                                                                  <char>
+1: Not estimable: no qualifying 95% credible set for sepsis; nonconverged fit for exposure ; PP.H4 is not assigned zero. No weakening of credible-set coverage was used.
+2:                                Not estimable: no qualifying 95% credible set for sepsis ; PP.H4 is not assigned zero. No weakening of credible-set coverage was used.
+
+Ordinary single-signal coloc (same variant sets), priors p1=p2=1e-4:
+   analysis_set nsnps    p1    p2   p12 PP.H0        PP.H1 PP.H2         PP.H3
+         <char> <int> <num> <num> <num> <int>        <num> <int>         <num>
+1:  all_matched  2914 1e-04 1e-04 1e-06     0 0.9370926812     0 0.06188621117
+2:  all_matched  2914 1e-04 1e-04 1e-05     0 0.9285592505     0 0.06132265784
+3:  all_matched  2914 1e-04 1e-04 1e-04     0 0.8510593791     0 0.05620451585
+4: common_highN  2155 1e-04 1e-04 1e-06     0 0.9695188785     0 0.02942468050
+5: common_highN  2155 1e-04 1e-04 1e-05     0 0.9603875432     0 0.02914754652
+6: common_highN  2155 1e-04 1e-04 1e-04     0 0.8777201774     0 0.02663861051
+            PP.H4
+            <num>
+1: 0.001021107662
+2: 0.010118091676
+3: 0.092736105050
+4: 0.001056441028
+5: 0.010464910238
+6: 0.095641212088
+
+Binary-outcome N / L sensitivity:
+           setting nsnps           N     L coverage min_abs_corr converged
+            <char> <int>       <num> <int>    <num>        <num>    <lgcl>
+1:     total_N_L10  2914 456181.0000    10     0.95          0.5      TRUE
+2: effective_N_L20  2914  65958.1121    20     0.95          0.5      TRUE
+   niter credible_sets max_pip warnings
+   <int>         <int>   <num>   <char>
+1:     2             0       0         
+2:     2             0       0         
+
+Exposure L=20 capacity sensitivity:
+   analysis_set    trait nsnps     N     L converged niter credible_sets
+         <char>   <char> <int> <num> <num>    <lgcl> <int>         <int>
+1: common_highN exposure  2155 20506    20      TRUE    41            20
+   reaches_L_cap warnings
+          <lgcl>   <char>
+1:          TRUE         
+
+Interpretation: absence of a sepsis credible set provides no signal pair for multi-signal colocalization. Report PP.H4 as not estimable, not zero. Weak local sepsis association and limitations of external LD prevent exclusion of a shared causal effect.
+The nonconverged exposure fit and substantial exposure z–LD mismatch must be disclosed; raw PIPs / candidate sets from a failed fit are audit outputs, not validated causal signals.
+The common_highN sensitivity requires MAF>=0.01 in both traits and reference and exposure N>=90% of maximum regional N; no outcome P-value filtering or relaxed coverage was used.
+The 503-person broader-European reference is not in-sample SCALLOP LD or Finnish-specific LD; population mismatch and finite-panel uncertainty limit fine-mapping reliability.
+
+Reproducibility: 01_multisignal_coloc.R, 02_validate_and_summarize.R, matched_regional_summary_statistics.tsv, signed_LD_EUR_503.rds, LD_SNP_order.txt, recorded fit/diagnostic objects, and session_info.txt.
+Intermediate reference_region.* genotypes and LD_eigendecomposition_*.rds need not be included in manuscript supplements; the signed LD and summary statistics are sufficient to rerun modelling.

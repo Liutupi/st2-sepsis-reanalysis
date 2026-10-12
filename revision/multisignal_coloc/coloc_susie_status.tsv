@@ -1,0 +1,3 @@
+analysis_set	nsnps	exposure_credible_sets	sepsis_credible_sets	status
+all_matched	2914	5	0	Not estimable: no qualifying 95% credible set for sepsis; nonconverged fit for exposure ; PP.H4 is not assigned zero. No weakening of credible-set coverage was used.
+common_highN	2155	10	0	Not estimable: no qualifying 95% credible set for sepsis ; PP.H4 is not assigned zero. No weakening of credible-set coverage was used.

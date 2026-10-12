@@ -1,0 +1,6 @@
+item	value
+"Published deCODE IL1RL1-sepsis estimate"	"OR 1.0353; P=0.0102; 65 SNPs"
+"Published UKB-PPP IL1RL1-sepsis estimate"	"OR 1.0489; P=0.00586; 49 SNPs"
+"Published deCODE FDR"	"1"
+"Published UKB-PPP FDR"	"1"
+"deCODE instrument-level rows present in Supplementary Table S1"	"No (0 IL1RL1/ST2 rows found)"

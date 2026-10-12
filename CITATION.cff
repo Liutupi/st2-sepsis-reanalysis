@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research code and the associated article when available."
+type: software
+title: "ST2 genetic instruments and sepsis reproducibility analyses"
+version: "1.0.0"
+date-released: "2026-10-12"
+url: "https://github.com/Liutupi/st2-sepsis-reanalysis"
+repository-code: "https://github.com/Liutupi/st2-sepsis-reanalysis"
+license: MIT
+authors:
+  - family-names: Liu
+    given-names: Dongpo
+    orcid: "https://orcid.org/0009-0006-5365-6363"
+    affiliation: "The First Clinical Medical School, Guangdong Medical University"
+  - family-names: Sun
+    given-names: Yanxiang
+    affiliation: "The First Clinical Medical School, Guangdong Medical University"

@@ -1,0 +1,3 @@
+outcome	data_source	rsid	chr	pos	chr38	pos38	effect_allele	other_allele	eaf	beta_exposure	se_exposure	pval_exposure	n_exposure	f_statistic	r2_exposure	beta_outcome	se_outcome	pval_outcome	eaf_outcome_effect_allele	align_ok	align_rule	eaf_diff
+"Heart_failure_HERMES"	"HERMES 2020"	"rs13006559"	2	102907630	2	102291170	"T"	"C"	0.3191	0.2605	0.0101	3.62e-146	20508	665.23134986766	0.029488697424395	-0.003	0.0084	0.7219	0.3316	TRUE	"direct_same"	0.0125
+"Heart_failure_HERMES"	"HERMES 2020"	"rs4851008"	2	103026611	2	102410151	"C"	"G"	0.7613	-0.4132	0.0107	1.6688053938804e-308	20505.9	1491.25897458293	0.0620524409777888	-0.0118	0.0096	0.2147	0.7745	TRUE	"direct_same"	0.0132

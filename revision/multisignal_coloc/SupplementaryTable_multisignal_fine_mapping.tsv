@@ -1,0 +1,5 @@
+analysis_set	trait	nsnps	n_rss	converged	niter	n_credible_sets	inferential_status	lambda_null_mle	max_abs_standardized_conditional_residual	max_abs_z	min_p	min_p_display
+all_matched	sepsis	2914	65958.1121002409	TRUE	2	0	Converged, no qualifying credible set	0.015530022768419	10.1968982025497	2.93433943927768	0.00334258440871453	3.34258e-03
+all_matched	exposure	2914	20506	FALSE	1000	5	Nonconverged: do not interpret PIPs or credible sets	0.376616691186942	28.7255529615455	73.3295454545455	0	<1e-300
+common_highN	sepsis	2155	65958.1121002409	TRUE	2	0	Converged, no qualifying credible set	0.00338957975484566	9.41159730408308	2.41282435439402	0.0158294458830285	1.58294e-02
+common_highN	exposure	2155	20506	TRUE	23	10	Converged but credible sets reach L cap; external-LD diagnostics apply	0.14061196223547	8.16129490224737	73.3295454545455	0	<1e-300

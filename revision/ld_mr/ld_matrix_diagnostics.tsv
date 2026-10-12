@@ -1,0 +1,17 @@
+metric	value
+reference_samples	503
+requested_variants	49
+available_allele_compatible_variants	49
+palindromic_variants	6
+palindromic_previously_ambiguous	0
+missing_genotype_cells	0
+min_ld_eigenvalue	0.341530054392041
+max_ld_eigenvalue	2.45346461354786
+ld_matrix_condition_number	7.18374439378485
+ld_rank_at_1e_minus_8	49
+max_abs_ld_r	0.308972
+max_pairwise_ld_r2	0.095463696784
+pairs_r2_gt_0.001	679
+pairs_r2_ge_0.1	0
+max_plink_vs_independent_ld_abs_diff	4.99814791624087e-07
+max_eaf_abs_difference	0.0319592666003976

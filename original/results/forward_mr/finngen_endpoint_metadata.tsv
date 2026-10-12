@@ -1,0 +1,4 @@
+outcome	endpoint	cases	controls
+Sepsis	AB1_OTHER_SEPSIS	17133	439048
+Heart_failure	I9_HEARTFAIL	37653	462695
+IBD_positive_control	K11_IBD_STRICT	10960	489388

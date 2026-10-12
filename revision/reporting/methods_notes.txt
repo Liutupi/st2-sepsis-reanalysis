@@ -1,0 +1,5 @@
+Robust MVMR: MendelianRandomization::mr_mvivw(model="random", robust=TRUE).
+Implementation cross-checked against robustbase::lmrob, no intercept; weights seY^-2; k.max=500,maxit.scale=500; random-effects SE = summary(lmrob)$coef[,2]/min(summary(lmrob)$sigma,1).
+Modified validity Q includes exposure-association uncertainty; outcome residual Q and robust-scale Q are different diagnostics and must not be compared as the same statistic.
+Expanded rho grid is hypothetical error-correlation stress testing, not inferred cohort overlap; point estimates and conventional weighted-regression SE are not overlap-corrected.
+Power assumes asymptotic normality, valid instruments and fixed observed standard error, and does not incorporate LD/assay/exclusion-restriction uncertainty.

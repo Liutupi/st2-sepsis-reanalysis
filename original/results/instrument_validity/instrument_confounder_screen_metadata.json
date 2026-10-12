@@ -1,0 +1,50 @@
+{
+  "data_source": "NHGRI-EBI GWAS Catalog API v2 direct-variant association export",
+  "query_date": "2026-07-22",
+  "p_value_threshold": "5e-8",
+  "proxy_policy": "No LD proxies queried",
+  "predefined_categories": {
+    "adiposity_or_metabolic": [
+      "body mass index",
+      "obesity",
+      "waist",
+      "type 2 diabetes",
+      "insulin"
+    ],
+    "blood_pressure_or_cardiometabolic": [
+      "blood pressure",
+      "hypertension",
+      "cholesterol",
+      "lipid",
+      "triglycer",
+      "apolipoprotein"
+    ],
+    "kidney_or_liver_function": [
+      "estimated glomerular",
+      "kidney",
+      "renal",
+      "creatinine",
+      "albumin",
+      "alkaline phosphatase",
+      "liver"
+    ],
+    "smoking_or_alcohol": [
+      "smoking",
+      "tobacco",
+      "alcohol"
+    ],
+    "socioeconomic_or_behavioral": [
+      "educational",
+      "social deprivation"
+    ],
+    "hematologic_or_immune": [
+      "red cell",
+      "white blood",
+      "platelet",
+      "lymphocyte",
+      "neutrophil",
+      "blood cell"
+    ]
+  },
+  "interpretation": "A null result does not prove absence of pleiotropy; this is a transparent screen for reported direct associations in prespecified confounder categories."
+}

@@ -1,0 +1,14 @@
+cohort	scallop_max_n_reported	scallop_max_n_raw	olink_panels_reported	trait_transform_reported	source
+IMPROVE	3403	3403	CVD I	Rank-based inverse normal transformation (Blom)	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+STANLEY	681	681	CVD I; INF I; ONC I	Rank-based inverse normal transformation (Blom)	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+EpiHealth	2335	2335	CVDII; CVDIII	Rank-based inverse normal transformation (Blom)	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+PIVUS	933	933	CVDI	Rank-based inverse normal transformation (Blom)	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+ULSAM	730	730	CVDI	Rank-based inverse normal transformation (Blom)	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+INTERVAL	4987	4,987 (post QC)	INF; CVD2; CVD3	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+LifeLines-DEEP	1178	1178	CVDIII	z-score transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+NSPHS	965	965	ONC I; CVD I	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+STABILITY	2967	2,967	CVD-I; INF-I	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+Estonian BB	496	496 (post QC)	CVD2; CVD3; INF; ONC II	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+ORCADES	971	971	CVDII; CVDIII; INFI; cardiometabolic; metabolic; immune response; neurology; neuro exploratory; oncology II; cell regulation; development; organ damage	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28
+VIS	NA	blank	CVDII; CVDIII; INFI	Rank-based inverse normal transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28; do not impute the blank max N from cohort total N or overall SCALLOP N
+MPP-RES	882	882	CVDIII	z-score transformation	Folkersen2020_SuppTables1-10.xlsx / 8 Scallop_cohorts / rows 15,16,28

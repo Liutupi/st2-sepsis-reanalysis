@@ -1,0 +1,7 @@
+analysis_set	trait	nsnps	n_rss	L	coverage	min_abs_corr	estimate_residual_variance	converged	niter	n_credible_sets	final_elbo	warnings	estimate_prior_variance	tolerance	max_iter	reaches_L_cap	inferential_status
+all_matched	sepsis	2914	65958.1121002409	10	0.95	0.5	FALSE	TRUE	2	0	-93590.0064022548	""	TRUE	0.001	1000	FALSE	Converged, no qualifying credible set
+all_matched	exposure	2914	20506	10	0.95	0.5	FALSE	FALSE	1000	5	1378343.76453474	"IBSS algorithm did not converge in 1000 iterations!
+                  Please check consistency between summary statistics and LD matrix.
+                  See https://stephenslab.github.io/susieR/articles/susierss_diagnostic.html"	TRUE	0.001	1000	FALSE	Nonconverged: do not interpret PIPs or credible sets
+common_highN	sepsis	2155	65958.1121002409	10	0.95	0.5	FALSE	TRUE	2	0	-93590.0065153503	""	TRUE	0.001	1000	FALSE	Converged, no qualifying credible set
+common_highN	exposure	2155	20506	10	0.95	0.5	FALSE	TRUE	23	10	-26307.765819089	""	TRUE	0.001	1000	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply

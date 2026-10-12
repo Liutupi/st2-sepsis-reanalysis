@@ -1,0 +1,13 @@
+Input: original/results/colocalization/harmonized_region_Sepsis.tsv
+Reference: ${SST2_EUR_BFILE}
+Reference individuals: 503
+Harmonized input SNPs: 2914
+Matched polymorphic reference SNPs: 2914
+Missing reference dosages (mean-imputed): 0
+LD coding: Pearson correlation of PLINK A1 dosages, multiplied by outer(ld_sign,ld_sign).
+All effects and signed LD correspond to SCALLOP effect_allele; direct/swapped matching only.
+Genome build: GRCh37 in LD / SCALLOP; FinnGen coordinates were lifted and harmonized in the original analysis.
+Exposure sample size range: 6907–20508
+Exposure median N: 20505.9
+Sepsis cases/controls: 17133 / 439048
+Reference panel is broader European, not an in-sample/Finnish-specific LD panel.

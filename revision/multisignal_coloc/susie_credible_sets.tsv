@@ -1,0 +1,16 @@
+analysis_set	trait	cs	effect_index	n_snps	coverage	min_abs_corr	mean_abs_corr	cs_log10bf	top_snp	top_pip	snps	converged	reaches_L_cap	inferential_status
+all_matched	exposure	L1	1	1	1	1	1	56047472.3245028	rs950880	1	rs950880	FALSE	FALSE	Nonconverged: do not interpret PIPs or credible sets
+all_matched	exposure	L2	2	1	1	1	1	132.270146835758	rs13029918	1	rs13029918	FALSE	FALSE	Nonconverged: do not interpret PIPs or credible sets
+all_matched	exposure	L3	3	1	1	1	1	30547901.4164686	rs58815545	1	rs58815545	FALSE	FALSE	Nonconverged: do not interpret PIPs or credible sets
+all_matched	exposure	L4	4	1	1	1	1	59885981.3204552	rs12992762	1	rs12992762	FALSE	FALSE	Nonconverged: do not interpret PIPs or credible sets
+all_matched	exposure	L5	5	1	1	1	1	77335135.208175	rs1558619	1	rs1558619	FALSE	FALSE	Nonconverged: do not interpret PIPs or credible sets
+common_highN	exposure	L2	2	1	0.99123700769593	1	1	90.3832200946503	rs11689277	0.991237007695931	rs11689277	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L3	3	1	0.999998758582431	1	1	45.1957644659498	rs11676124	0.999998758582431	rs11676124	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L5	5	1	0.99999999329894	1	1	41.017314578602	rs4851597	0.99999999329894	rs4851597	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L6	6	1	0.999781087868981	1	1	21.7614736109402	rs4851502	0.999781087868981	rs4851502	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L7	7	1	0.997920707110116	1	1	28.3193981139865	rs1024794	0.997920707110116	rs1024794	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L8	8	3	0.952387297071253	1	1	145.80792556153	rs3771161	0.48883628008086	rs17027029;rs12712144;rs3771161	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L9	9	1	1	1	1	149.061404511563	rs7600901	1	rs7600901	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L10	10	1	1	1	1	25.2996607356443	rs55948744	1	rs55948744	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L1	1	2	0.97394587871503	0.997847654077011	0.997847654077011	1518.42548004585	rs950880	0.590201747229371	rs13020553;rs950880	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply
+common_highN	exposure	L4	4	2	0.955886871975517	0.994511845953455	0.994511845953455	22.4186803559794	rs72817879	0.727768059335853	rs11676463;rs72817879	TRUE	TRUE	Converged but credible sets reach L cap; external-LD diagnostics apply

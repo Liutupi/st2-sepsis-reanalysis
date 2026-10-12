@@ -1,0 +1,3 @@
+setting	nsnps	N	L	coverage	min_abs_corr	converged	niter	credible_sets	max_pip	warnings
+total_N_L10	2914	456181	10	0.95	0.5	TRUE	2	0	0	""
+effective_N_L20	2914	65958.1121002409	20	0.95	0.5	TRUE	2	0	0	""

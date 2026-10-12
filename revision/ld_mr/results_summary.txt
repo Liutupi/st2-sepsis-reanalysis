@@ -1,0 +1,14 @@
+LD-aware IVW: methods, results, and interpretation
+Reference: 1000 Genomes Phase 3 European ancestry, 503 individuals; PLINK 1.9 genotype-dosage signed correlation.
+Of 49 published harmonized UKB-PPP IL1RL1 instruments, 49 were present and allele-compatible. Naive and generalized IVW use exactly this matched set.
+Effect-allele alignment: outcomes already align exactly to exposure effects in the published supplement; PLINK A1 forced to exposure effect allele and signed LD reoriented explicitly if needed.
+Palindromic variants retained: 6; previously ambiguous: 0. Alignment used exact alleles and effect-allele frequency checks; maximum reference-versus-UKB absolute allele-frequency discrepancy 0.03196.
+Independent dosage correlation matched PLINK signed LD to max absolute difference 5e-07. LD eigenvalue min 0.34153, max 2.45346, condition number 7.18374; 0 genotype cells missing.
+Generalized IVW uses Omega=diag(seY) R diag(seY), beta=(bx' Omega^-1 by)/(bx' Omega^-1 bx), fixed SE=(bx' Omega^-1 bx)^-1/2; multiplicative random SE multiplies by sqrt(max(1,Q/(K-1))). Normal 95% CI and two-sided P values.
+MendelianRandomization::mr_ivw version 0.10.0 and independent matrix algebra agreed to numerical precision. First-order outcome-variance weights treat SNP-exposure effects as measured without error.
+Naive matched-set multiplicative random IVW: OR 1.048923 (95% CI 1.013888-1.085169), P 0.0058566022; Q 43.554400 (df 48), Q P 0.65538394.
+LD-aware matched-set multiplicative random IVW: OR 1.041332 (95% CI 0.998985-1.085474), P 0.055873981; Q 49.938552 (df 48), Q P 0.39622394.
+Strict 4-variant multiplicative random IVW: OR 0.976377 (95% CI 0.897823-1.061804), P 0.57641008; Q 1.423408 (df 3), Q P 0.70005703.
+Interpretation must follow the observed LD-aware estimate. Comparing only a 49-SNP model with a 4-SNP model changes the instrument set and information content; it cannot identify residual LD as the cause of an earlier association.
+Limitations: external European LD estimated from only 503 individuals may differ from UK Biobank LD and is treated as known; this uncertainty is not included in model CIs. Rare-variant LD is less precise. Results concern published UKB-PPP IL1RL1 protein effects and the published UKB sepsis outcome, not SCALLOP or FinnGen primary analyses. The published protein unit must be respected; no new biological specificity is inferred.
+Weighted-PC sensitivities retain all 49 variants projected into fixed 99% and 99.9% weighted-variance subspaces; these are numerical sensitivity analyses, not alternative primary findings or preregistered analyses. All fixed/random estimates, signed LD, pairwise LD, allele audits, logs, and session info are saved.

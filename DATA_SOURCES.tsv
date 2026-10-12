@@ -1,0 +1,9 @@
+resource	accession_or_identifier	primary_source	included_here	conditions
+SCALLOP ST2	GCST90012040	https://www.ebi.ac.uk/gwas/studies/GCST90012040	Selected/reference-matched and regional derived summaries only	Use original provider access and reuse terms; no full-genome source file is distributed
+HERMES heart failure	GCST009541	https://www.ebi.ac.uk/gwas/studies/GCST009541	Selected instrument cross-associations only	Use original provider access and reuse terms
+FinnGen Release 12	AB1_OTHER_SEPSIS;I9_HEARTFAIL;K11_IBD_STRICT	https://www.finngen.fi/en/access_results	Selected/regional derived summaries only	Obtain required access through FinnGen and follow its terms; no full-genome source files are distributed
+FinnGen R12 manifest	finngen_R12_manifest.tsv	https://storage.googleapis.com/finngen-public-data-r12/summary_stats/finngen_R12_manifest.tsv	Endpoint sample-count records in derived tables	Original FinnGen terms and attribution apply
+1000 Genomes Phase 3 EUR	503-person European reference	https://www.internationalgenome.org/data	Signed LD and aggregate frequency diagnostics only	No individual genotypes or reference-person identifiers are distributed; original data-use terms apply
+Published UKB-PPP comparison	10.1186/s12879-026-12748-2	https://doi.org/10.1186/s12879-026-12748-2	49-variant extracted comparison and derived estimates	Source article/supplement terms and attribution apply; source workbook and paper are not distributed
+NHGRI-EBI GWAS Catalog	Direct-variant API v2 query; 2026-07-22 snapshot	https://www.ebi.ac.uk/gwas/	Frozen returned association records and derived flags	Original Catalog terms and cited-study attribution apply; a rerun may return different records
+UCSC build conversion	hg19ToHg38.over.chain	https://hgdownload.soe.ucsc.edu/goldenPath/hg19/liftOver/	Not distributed	Obtain the chain separately and follow UCSC source terms
